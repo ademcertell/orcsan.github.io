@@ -1,0 +1,37 @@
+@import"https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap";
+
+:root {
+    --primary-color: #132440
+}
+
+body {
+    font-family: "Inter";
+    background-color: var(--primary-color)
+}
+
+html {
+    background-color: var(--primary-color)
+}
+
+img {
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none
+}
+
+.hello-world {
+    color: white;
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 768px) {
+    .hello-world {
+        font-size: 4em;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .hello-world {
+        font-size: 2.5em;
+    }
+}
