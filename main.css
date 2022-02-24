@@ -24,6 +24,10 @@ img, body {
     text-decoration-color: white;
 }
 
+.nodecoration:hover {
+    text-decoration: none !important
+}
+
 .head-big-text {
     font-weight: 700;
 }
@@ -119,4 +123,8 @@ img, body {
     font-size: 12px;
     background-color: orange;
     padding: 5px 10px;
+}
+
+.team-card-position {
+    font-size: 13px
 }
