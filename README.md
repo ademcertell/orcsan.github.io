@@ -1,2 +1,2 @@
 # reatongroup.github.io
-website
+Reaton Group organization's website.
