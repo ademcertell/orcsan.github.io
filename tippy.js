@@ -18,3 +18,10 @@ tippy('#project-metro', {
     placement: 'bottom',
     theme: 'ws'
 });
+
+tippy('#project-linksee', {
+    content: 'Linksee',
+    animation: 'scale',
+    placement: 'bottom',
+    theme: 'ws'
+});
