@@ -1,5 +1,5 @@
 tippy('#project-apptime', {
-    content: 'Apptime (closed)',
+    content: 'Apptime',
     animation: 'scale',
     placement: 'bottom',
     theme: 'ws'
