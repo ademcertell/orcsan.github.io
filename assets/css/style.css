@@ -1,0 +1,242 @@
+@import"https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap";
+@import"https://fonts.googleapis.com/css2?family=Audiowide&display=swap";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: unset
+}
+
+a:hover {
+    text-decoration: none;
+    color: unset
+}
+
+:root {
+    --primary-color: white
+}
+
+body {
+    font-family: "Inter";
+    background-color: var(--primary-color)
+}
+
+html {
+    background-color: var(--primary-color)
+}
+
+img {
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+@media only screen and (min-width: 768px) {
+    .padding {
+        padding-top: 4%;
+        padding-bottom: 4%;
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+
+    .section {
+        padding-top: 7%;
+        padding-bottom: 7%;
+    }
+    .head-text {
+        font-size: 4em;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .padding {
+        padding-top: 8%;
+        padding-bottom: 8%;
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+
+    .section {
+        padding-top: 6em;
+        padding-bottom: 6em;
+    }
+
+    .navbar-nav {
+        display: none;
+    }
+
+    #hamburger-icon {
+        display: block;
+    }
+    .head-text {
+        font-size: 4em;
+    }
+}
+
+.tippy-box[data-theme~=ws] {
+    color: #fff;
+    /*box-shadow: 0 0 20px 4px black, 0 4px 80px -8px black, 0 4px 4px -2px black;*/
+    background-color: black
+}
+
+.tippy-box[data-theme~=ws][data-placement^=top]>.tippy-arrow:before {
+    border-top-color: black
+}
+
+.tippy-box[data-theme~=ws][data-placement^=bottom]>.tippy-arrow:before {
+    border-bottom-color: black
+}
+
+.tippy-box[data-theme~=ws][data-placement^=left]>.tippy-arrow:before {
+    border-left-color: black
+}
+
+.tippy-box[data-theme~=ws][data-placement^=right]>.tippy-arrow:before {
+    border-right-color: black
+}
+
+.tippy-box[data-theme~=ws]>.tippy-backdrop {
+    background-color: black
+}
+
+.tippy-box[data-theme~=ws]>.tippy-svg-arrow {
+    background-color: black
+}
+
+.head {
+    min-height: 100vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url('/assets/img/Orcsan\ -\ DigitalNetworkBanner1.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*scroll nav option*/
+    background-size: cover;
+}
+
+.head-text {
+    max-width: 10em;
+    font-weight: 600;
+    line-height: 80px;
+    margin-top: -70px
+}
+
+.intro {
+    text-align: center;
+}
+
+.intro-brand {
+    color: #0064e0;
+    font-family: 'Audiowide', cursive;
+    font-size: 54px;
+}
+
+.intro-description {
+    color: #7c7c7c;
+    font-weight: 500;
+    font-size: 18px;
+    max-width: 40em;
+    margin: 0 auto !important;
+    float: none !important;
+    padding-top: 5px
+}
+
+.madw {
+    text-align: center;
+}
+
+.madw-title {
+    color: #2b2b2b;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.madw-description {
+    color: #7c7c7c;
+    font-size: 15px;
+    padding-top: 5px;
+}
+
+.madw-in {
+    padding-top: 5%
+}
+
+.madw-in-on a:hover {
+    display: block;
+}
+
+.madw-in-pr {
+    display: inline-block;
+}
+
+.madw-in-pr-img {
+    width: 300px;
+    height: 425px;
+    object-fit: cover !important;
+    display: flex;
+}
+
+.madw-in-pr {
+    position: relative;
+}
+
+.madw-in-pr-img {
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.madw-in-pr-img-middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.madw-in-pr:hover .madw-in-pr-img {
+    opacity: 0.9;
+}
+
+.madw-in-pr:hover .madw-in-pr-img-middle {
+    opacity: 1;
+}
+
+.madw-in-pr-img-middle-text {
+    color: white;
+    font-size: 30px;
+    padding: 16px 32px;
+}
+
+.coad {
+    text-align: center;
+}
+
+.coad-brand {
+    color: #0064e0;
+    font-family: 'Audiowide', cursive;
+    font-size: 44px;
+}
+
+.coad-heart {
+    color: #0064e0;
+    font-size: 40px;
+}
+
+.coad-ti {
+    color: rgb(66, 66, 66);
+    font-family: 'Audiowide', cursive;
+    font-size: 44px;
+}
