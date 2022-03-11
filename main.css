@@ -129,7 +129,7 @@ img, body {
     font-size: 13px
 }
 
-. team-avatar {
+.team-avatar {
     object-fit: cover !important;
     width: 50px;
     height: 50px
