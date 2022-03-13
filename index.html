@@ -8,6 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Welcome to Orcsan | Orcsan</title>
     <link rel="icon" type="image/png" href="/assets/img/Orc.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta2/css/all.css"
         ntegrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
@@ -20,7 +22,30 @@
 
 <body>
 
-    <div class="navbar">
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="/">Orcsan</a>
+        <a style="color: black" class="navbar-toggler" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent">
+            <i id="hamburgeropenbtn" style="font-size: 28px" class="fa-regular fa-bars"></i>
+        </a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="row w-100">
+                <div class="col-md-6">
+                </div>
+                <div class="-col-md-6">
+                    <ul id="waowThisIsHamburger" class="navbar-nav float-lg-end">
+                        <a class="nav-link" href="#"><li class="nav-item">Who We Are</li></a>
+                        <a class="nav-link" href="#"><li class="nav-item">What We Build</li></a>
+                        <a class="nav-link" href="#"><li class="nav-item">Our Actions</li></a>
+                        <a class="nav-link" href="#"><li class="nav-item">Our Community</li></a>
+                        <a class="nav-link" href="#"><li class="nav-item">Resources</li></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--<div class="navbar">
         <div class="navbar-brand"><a href="/">Orcsan</a></div>
         <div class="navbar-nav">
             <ul>
@@ -43,7 +68,7 @@
                 <li><a href="#">Resources</a></li>
             </ul>
         </div>
-    </div>
+    </div>-->
 
     <div class="head padding">
         <p class="head-text text-white">Let’s create our own world together.</p>
@@ -118,7 +143,8 @@
 
     <hr>
 
-    <div class="coad padding section"><span class="coad-brand">Orcsan</span> <span class="coad-heart ml-5 mr-5"><i class="animate-pulse fa-solid fa-heart text-red-400"></i></span> <span class="coad-ti">OSS</span></div>
+    <div class="coad padding section"><span class="coad-brand">Orcsan</span> <span class="coad-heart ml-5 mr-5"><i
+                class="animate-pulse fa-solid fa-heart text-red-400"></i></span> <span class="coad-ti">OSS</span></div>
 
     <hr>
 
@@ -128,42 +154,42 @@
                 <p class="footer-brand">Orcsan</p>
                 <p class="footer-desc-text">Follow us</p>
                 <p class="footer-soci-text">
-                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="footer-soci-text-i"><i class="fa-brands fa-facebook"></i></a>
                     <span class="ml-1 mr-1"></span>
-                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="footer-soci-text-i"><i class="fa-brands fa-instagram"></i></a>
                     <span class="ml-1 mr-1"></span>
-                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="footer-soci-text-i"><i class="fa-brands fa-twitter"></i></a>
                 </p>
             </div>
             <div class="grid-item">
                 <p class="footer-title-text">Company</p>
                 <div class="footer-links-in mt-2">
-                    <p class="footer-desc2-text"><a href="#">Welcome to Orcsan</a></p>
-                    <p class="footer-desc2-text"><a href="#">Newsroom</a></p>
-                    <p class="footer-desc2-text"><a href="#">Company Info</a></p>
-                    <p class="footer-desc2-text"><a href="#">Careers</a></p>
-                    <p class="footer-desc2-text"><a href="#">For Investors</a></p>
-                    <p class="footer-desc2-text"><a href="#">Brand Resources</a></p>
+                    <p class="footer-desc2-text"><a href="#" class="footer-desc2-text-a">Welcome to Orcsan</a></p>
+                    <p class="footer-desc2-text"><a href="#" class="footer-desc2-text-a">Newsroom</a></p>
+                    <p class="footer-desc2-text"><a href="#" class="footer-desc2-text-a">Company Info</a></p>
+                    <p class="footer-desc2-text"><a href="#" class="footer-desc2-text-a">Careers</a></p>
+                    <p class="footer-desc2-text"><a href="#" class="footer-desc2-text-a">For Investors</a></p>
+                    <p class="footer-desc2-text"><a href="#" class="footer-desc2-text-a">Brand Resources</a></p>
                 </div>
             </div>
             <div class="grid-item">
                 <p class="footer-title-text">Projects</p>
                 <div class="footer-links-in mt-2">
-                    <p class="footer-desc2-text"><a href="#">Linksee</a></p>
-                    <p class="footer-desc2-text"><a href="#">Apptime</a></p>
-                    <p class="footer-desc2-text"><a href="#">GoldWhaler</a></p>
-                    <p class="footer-desc2-text"><a href="#">IRS Archive</a></p>
-                    <p class="footer-desc2-text"><a href="#">Asuna</a></p>
+                    <p class="footer-desc2-text"><a href="#" class="footer-desc2-text-a">Linksee</a></p>
+                    <p class="footer-desc2-text"><a href="#" class="footer-desc2-text-a">Apptime</a></p>
+                    <p class="footer-desc2-text"><a href="#" class="footer-desc2-text-a">GoldWhaler</a></p>
+                    <p class="footer-desc2-text"><a href="#" class="footer-desc2-text-a">IRS Archive</a></p>
+                    <p class="footer-desc2-text"><a href="#" class="footer-desc2-text-a">Asuna</a></p>
                 </div>
             </div>
             <div class="grid-item">
                 <p class="footer-title-text">Help Center</p>
                 <div class="footer-links-in mt-2">
-                    <p class="footer-desc2-text"><a href="#">Linksee Help Center</a></p>
-                    <p class="footer-desc2-text"><a href="#">Apptime Help Center</a></p>
-                    <p class="footer-desc2-text"><a href="#">GoldWhaler Help Center</a></p>
-                    <p class="footer-desc2-text"><a href="#">IRS Archive Help Center</a></p>
-                    <p class="footer-desc2-text"><a href="#">Asuna Help Center</a></p>
+                    <p class="footer-desc2-text"><a href="#" class="footer-desc2-text-a">Linksee Help Center</a></p>
+                    <p class="footer-desc2-text"><a href="#" class="footer-desc2-text-a">Apptime Help Center</a></p>
+                    <p class="footer-desc2-text"><a href="#" class="footer-desc2-text-a">GoldWhaler Help Center</a></p>
+                    <p class="footer-desc2-text"><a href="#" class="footer-desc2-text-a">IRS Archive Help Center</a></p>
+                    <p class="footer-desc2-text"><a href="#" class="footer-desc2-text-a">Asuna Help Center</a></p>
                 </div>
             </div>
         </div>
@@ -174,7 +200,9 @@
 <script src="https://unpkg.com/@popperjs/core@2"></script>
 <script src="https://unpkg.com/tippy.js@6"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 <script src="/assets/js/tippy.js"></script>
 <script src="/assets/js/navbar.js"></script>
 
