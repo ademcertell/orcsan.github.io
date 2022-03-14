@@ -1,11 +1,11 @@
 @media only screen and (min-width: 768px) {
-    .grid-container {
+    .footer-container {
         display: grid;
-        grid-template-columns: auto auto auto auto;
+        grid-template-columns: auto auto auto auto auto;
         background-color: white; /*f7f7f7*/
         padding: 10px;
       }
-      .grid-item {
+      .footer-item {
         /*border: 1px solid rgba(0, 0, 0, 0.8);*/
         padding: 20px;
         font-size: 30px;
@@ -29,6 +29,12 @@
     color: #2b2b2b;
     font-size: 18px;
     font-weight: 500;
+}
+
+.footer-desc0-text {
+    color: #2b2b2b;
+    font-size: 15px;
+    padding-bottom: 0em;
 }
 
 .footer-desc-text {
