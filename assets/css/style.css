@@ -165,7 +165,7 @@ img {
 
 .madw-description {
     color: #7c7c7c;
-    font-size: 15px;
+    font-size: 18px;
     padding-top: 5px;
 }
 
@@ -289,4 +289,55 @@ img {
 
 .bwo-card-description-out {
     height: 205px;
+}
+
+.announcement-section {
+    background-color: #003766;
+    padding: 10px 10px;
+    text-align: center;
+    color: #ffcb03;
+    font-size: 21px
+}
+
+.showcase {
+    text-align: center;
+}
+
+.showcase-title {
+    color: #2b2b2b;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.showcase-description {
+    color: #7c7c7c;
+    font-size: 18px;
+    padding-top: 5px;
+}
+
+.showcase-in {
+    padding-top: 5%
+}
+
+.showcase-in-pr {
+    display: inline-block;
+}
+
+.showcase-in-pr-img {
+    width: 120px;
+    display: flex;
+}
+
+.showcase-in-pr-img {
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.user-select-none {
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default
 }
