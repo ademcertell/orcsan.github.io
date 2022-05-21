@@ -145,7 +145,6 @@ img {
 
 .intro-description {
     color: #7c7c7c;
-    font-weight: 500;
     font-size: 18px;
     max-width: 40em;
     margin: 0 auto !important;
@@ -170,7 +169,7 @@ img {
 }
 
 .madw-in {
-    padding-top: 5%
+    padding-top: 4%
 }
 
 .madw-in-on a:hover {
@@ -293,10 +292,11 @@ img {
 
 .announcement-section {
     background-color: #003766;
-    padding: 10px 10px;
+    padding: 5px 5px;
     text-align: center;
     color: #ffcb03;
-    font-size: 21px
+    font-size: 19px;
+    font-weight: 500;
 }
 
 .showcase {
