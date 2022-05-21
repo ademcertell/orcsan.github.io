@@ -50,6 +50,7 @@ img {
     }
     .head-text {
         font-size: 4em;
+        line-height: 80px;
     }
     .bwo-container {
         display: grid;
@@ -78,7 +79,8 @@ img {
         padding-bottom: 6em;
     }
     .head-text {
-        font-size: 4em;
+        font-size: 3em;
+        line-height: 60px;
     }
 }
 
@@ -119,7 +121,7 @@ img {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-image: url('/assets/img/Orcsan\ -\ DigitalNetworkBanner1.png');
+    background-image: url('/assets/img/Orcsan\ -\ DigitalNetworkBanner.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     /*scroll nav option*/
@@ -129,7 +131,6 @@ img {
 .head-text {
     max-width: 10em;
     font-weight: 600;
-    line-height: 80px;
     margin-top: -70px
 }
 
